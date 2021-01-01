@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.packtpub.layouts"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application>
+        <activity android:name=".LayoutSelectorActivity" android:label="Layout Example Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FrameLayoutActivity" android:label="Frame Layout Example"/>
+        <activity android:name=".TableLayoutActivity" android:label="Table Layout Example"/>
+        <activity android:name=".CircleLayoutActivity" android:label="Circle Layout Example"/>
+        <activity android:name=".RelativeLayoutActivity" android:label="Relative Layout Example"/>
+        <activity android:name=".SlidingDrawerActivity" android:label="Sliding Drawer Example"/>
+    </application>
+</manifest> 

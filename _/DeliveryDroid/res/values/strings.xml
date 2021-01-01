@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="restaurants">
+        <item>The Burger Place</item>
+        <item>Micks Pizza</item>
+        <item>Four Buckets \'o Fruit</item>
+        <item>Sam\'s Sushi</item>
+    </string-array>
+</resources>

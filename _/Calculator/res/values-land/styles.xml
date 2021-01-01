@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <style name="CalculatorDisplay">
+        <item name="android:background">
+            @drawable/display_background
+        </item>
+    </style>
+
+    <style name="ScientificButton" parent="style/CalculatorButton">
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

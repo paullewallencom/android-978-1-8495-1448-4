@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.packtpub.animations"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <application android:label="Animation Examples">
+        <activity android:name=".AnimationSelector" android:label="Animation Examples">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".NewsFeedActivity" android:label="News Feed" />
+        <activity android:name=".ColorSelectorActivity" android:label="Your Favorite Color" />
+        <activity android:name=".VanishingButtonActivity" android:label="Vanishing Button" />
+    </application>
+</manifest> 

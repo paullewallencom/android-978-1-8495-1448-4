@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageButton android:src="@drawable/face"
+                 android:id="@+id/photo"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentLeft="true"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+
+    <EditText android:text="Unknown"
+              android:id="@+id/contact_name"
+              android:layout_alignBottom="@id/photo"
+              android:layout_toRightOf="@id/photo"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:text="Contact Name:"
+              android:id="@+id/contact_label"
+              android:layout_above="@id/contact_name"
+              android:layout_toRightOf="@id/photo"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/edit_numbers"
+            android:text="Edit"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_below="@id/contact_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView android:text="Contact Numbers:"
+              android:id="@+id/numbers_label"
+              android:textSize="20sp"
+              android:layout_alignBaseline="@id/edit_numbers"
+              android:layout_alignParentLeft="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+    <TableLayout android:layout_below="@id/edit_numbers"
+                 android:layout_marginTop="5dp"
+                 android:layout_centerInParent="true"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView android:text="Home" android:layout_marginRight="20dp"/>
+            <TextView android:text="555-987-5678"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Mobile" android:layout_marginRight="20dp"/>
+            <TextView android:text="555-345-7654"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button android:text="Save"
+            android:id="@+id/save"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"/>
+
+    <Button android:text="Cancel"
+            android:id="@+id/cancel"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">"
+
+    <Button android:id="@+id/date"
+            android:text="Date Picker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/list"
+            android:text="Filtering List"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

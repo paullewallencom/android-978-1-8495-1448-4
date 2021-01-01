@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/CalculatorDisplay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView android:id="@+id/delete"
+               android:src="@android:drawable/ic_input_delete"
+               android:layout_centerInParent="true"
+               android:layout_alignParentRight="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+    <ViewSwitcher android:id="@+id/display"
+                  android:inAnimation="@anim/slide_in_bottom"
+                  android:outAnimation="@anim/slide_out_top"
+                  android:layout_alignParentTop="true"
+                  android:layout_toLeftOf="@id/delete"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+                      
+        <TextView style="@style/CalculatorTextDisplay"
+                  android:text="0"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"/>
+                  
+        <TextView style="@style/CalculatorTextDisplay"
+                  android:text="0"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"/>
+    </ViewSwitcher>
+</RelativeLayout>

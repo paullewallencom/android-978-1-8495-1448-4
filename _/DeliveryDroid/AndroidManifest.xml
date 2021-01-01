@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.packtpub.deliverydroid"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:label="Delivery Droid">
+        <activity android:name=".SelectRestaurantActivity" android:label="Where should we order from?">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TheBurgerPlaceActivity" android:label="The Burger Place\'s Menu">
+            <intent-filter>
+                <action android:name="com.packtpub.deliverydroid.TheBurgerPlaceActivity"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MicksPizzaActivity" android:label="Micks Pizzaria">
+            <intent-filter>
+                <action android:name="com.packtpub.deliverydroid.MicksPizzaActivity"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FourBucketsActivity" android:label="Four Buckets 'o Fruit">
+            <intent-filter>
+                <action android:name="com.packtpub.deliverydroid.FourBucketsActivity"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 

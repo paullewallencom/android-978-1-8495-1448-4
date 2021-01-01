@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="questions">
+        <item>vegetarian</item>
+        <item>size</item>
+        <item>style</item>
+        <item>healthy</item>
+    </string-array>
+    
+    <string-array name="vegetarian">
+        <item>Are you a Vegetarian?</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>I\'m a Vegan</item>
+    </string-array>
+    
+    <string-array name="size">
+        <item>How much do you feel like eating?</item>
+        <item>A large meal</item>
+        <item>Just a nice single of food</item>
+        <item>Some finger foods</item>
+        <item>Just a snack</item>
+    </string-array>
+
+    <string-array name="style">
+        <item>What style of cooking?</item>
+        <item>Fried</item>
+        <item>Baked</item>
+        <item>Grilled</item>
+        <item>Uncooked</item>
+        <item>I don\'t really care</item>
+    </string-array>
+
+    <string-array name="healthy">
+        <item>Should the food be healthy?</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Don\'t care</item>
+    </string-array>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="inverse">1/x</string>
+    <string name="square">
+        x<sup><font size="10">2</font></sup>
+    </string>
+    <string name="cube">
+        x<sup><font size="10">3</font></sup>
+    </string>
+    <string name="pow">
+        y<sup><font size="10">x</font></sup>
+    </string>
+    <string name="percent">%</string>
+
+    <string name="cos">cos</string>
+    <string name="sin">sin</string>
+    <string name="tan">tan</string>
+    <string name="log2">
+        log<sub><font size="10">2</font></sub>
+    </string>
+    <string name="log10">
+        log<sub><font size="10">10</font></sub>
+    </string>
+
+    <string name="acos">
+        cos<sup><font size="10">-1</font></sup>
+    </string>
+    <string name="asin">
+        sin<sup><font size="10">-1</font></sup>
+    </string>
+    <string name="atan">
+        tan<sup><font size="10">-1</font></sup>
+    </string>
+    <string name="log">log</string>
+    <string name="log1p">log1p</string>
+    
+    <string name="e"><i>e</i></string>
+    <string name="pi">&#x03c0;</string>
+    <string name="random">rnd</string>
+    <string name="sqrt">&#x221a;</string>
+    <string name="hyp">hyp</string>
+</resources>

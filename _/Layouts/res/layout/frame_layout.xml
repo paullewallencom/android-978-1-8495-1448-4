@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView android:src="@drawable/jaipal"
+               android:scaleType="centerCrop"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"/>
+
+    <LinearLayout android:orientation="vertical"
+                  android:gravity="bottom"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+
+        <Button android:text="Display Overlay"
+                android:id="@+id/overlay_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+        <Button android:text="Quit"
+                android:id="@+id/quit"
+                android:layout_marginTop="10sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView android:visibility="gone"
+              android:id="@+id/overlay"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:textColor="#ffff843c"
+              android:text="This is a text overlay."
+              android:gravity="center|center_vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"/>
+</FrameLayout>

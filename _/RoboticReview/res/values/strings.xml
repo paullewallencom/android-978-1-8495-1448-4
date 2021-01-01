@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="review">Review</string>
+    <string name="gallery">Photos</string>
+    <string name="reservation">Reservations</string>
+
+    <string-array name="comments">
+        <item>Just Fantastic!</item>
+        <item>Amazing Food!</item>
+        <item>Best Curry I\'ve ever eaten in my entire life.</item>
+        <item>It was difficult to leave; I\'m not sure I\'ve ever eaten so much in my entire life.</item>
+        <item>I had no idea there were do many different types of Curry!?!? Amazing!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/name"
+              android:text="Jai's Highrise Curry Den"
+              android:textStyle="bold"
+              android:textSize="25sp"
+              android:textColor="#ffffffff"
+              android:gravity="center|center_vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+
+    <RatingBar android:id="@+id/stars"
+               android:numStars="5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+    <TextSwitcher android:id="@+id/reviews"
+                  android:inAnimation="@android:anim/fade_in"
+                  android:outAnimation="@android:anim/fade_out"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"/>
+</LinearLayout>

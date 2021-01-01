@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+           android:adjustViewBounds="true"
+           android:maxWidth="128dip"
+           android:scaleType="centerInside"/>
